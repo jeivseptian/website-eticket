@@ -1,5 +1,101 @@
+body {
+  background-color: #e4e6eb;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
+}
+
+// navbar
 .navbar-brand {
   img {
     max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4d;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+
+  &:hover {
+    background-color: #1e3771;
+    color: #fff;
+  }
+}
+
+// header
+
+header {
+  padding: 180px 0px 165px;
+  margin-top: -70px;
+  background-image: url("../images/header-background.jpg");
+  background-size: cover;
+
+  h1,
+  p {
+    color: #fff;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #ff9e53;
+    color: #fff;
+
+    &:hover {
+      background-color: #ffaa69;
+      color: #fff;
+    }
+  }
+}
+
+// statistik
+
+.section-stats {
+  margin-top: -50px;
+  text-align: center;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
   }
 }
